@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.viru.eatit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.viru.eatit.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.SecondActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.SECONDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.Breakfast"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.BREAKFAST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.Lunch"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.LUNCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.Snacks"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.SNACKS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.Dinner"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.DINNER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.AlooParatha"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.ALOOPARATHA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.Daliya"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.DALIYA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.DesiSandwich"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.DESISANDWICH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.Dosa"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.DOSA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.Idli"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.IDLI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.IndianStyleEggs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.INDIANSTYLEEGGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.Khakra"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.KHAKRA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.Poha"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.POHA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.SabudanaKhichdi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.SABUDANAKHICHDI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.Upma"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.UPMA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.RajmaChawal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.RAJMACHAWAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.CholeChawal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.CHOLECHAWAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.KadhiChawal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.KADHICHAWAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.DalChawal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.DALCHAWAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.SukhiAlooKiSabji"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.SUKHIALOOKISABJI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.BhindiMasalaRecipe"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.BHINDIMASALARECIPE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.DryArbi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.DRYARBI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.AlooBaingan"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.ALOOBAINGAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.viru.eatit.Khichdi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.KHICHDI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.viru.eatit.CocktailGreenPeasSamosa"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.COCKTAILGREENPEASSAMOSA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.viru.eatit.BesanKiBurfi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.BESANKIBURFI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.viru.eatit.BesanPaare"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.BESANPAARE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.viru.eatit.BhelPuri"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.BHELPURI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.viru.eatit.BreadDahiVada"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.BREADDAHIVADA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.viru.eatit.BreadPotatoRolls"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.BREADPOTATOROLLS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.viru.eatit.CerealChivda"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.CEREALCHIVDA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.viru.eatit.Chakli"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.CHAKLI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.viru.eatit.CoconutLadoo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.COCONUTLADOO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.viru.eatit.SpinachPakoras"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.SPINACHPAKORAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.viru.eatit.ChickenChilliMasala"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.CHICKENCHILLIMASALA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.MuttonDoPyaaza"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.MUTTONDOPYAAZA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.HyderabadiBiryani"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.HYDERABADIBIRYANI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.VegetableBiryani"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.VEGETABLEBIRYANI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.PaneerInWhiteGravy"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.PANEERINWHITEGRAVY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.ChickenManchurian"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.CHICKENMANCHURIAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.MuttonBiryani"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.MUTTONBIRYANI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.PaneerKofta"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.PANEERKOFTA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.PaneerKadhaiMasala"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.PANEERKADHAIMASALA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.viru.eatit.PalakPaneer"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.viru.eatit.PALAKPANEER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+   
+
+</manifest>
